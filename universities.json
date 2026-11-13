@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "ugm",
+    "name": "Universitas Gadjah Mada",
+    "location": "Yogyakarta, Indonesia",
+    "logo": "assets/images/universities/ugm.png"
+  },
+  {
+    "slug": "itb",
+    "name": "Institut Teknologi Bandung",
+    "location": "Bandung, Indonesia",
+    "logo": "assets/images/universities/itb.png"
+  },
+  {
+    "slug": "oxford",
+    "name": "University of Oxford",
+    "location": "Oxford, United Kingdom",
+    "logo": "assets/images/universities/oxford.png"
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "location": "Cambridge, Massachusetts, USA",
+    "logo": "assets/images/universities/harvard.png"
+  },
+  {
+    "slug": "ui",
+    "name": "Universitas Indonesia",
+    "location": "Depok, Indonesia",
+    "logo": "assets/images/universities/ui.jpg"
+  },
+  {
+    "slug": "snu",
+    "name": "Seoul National University",
+    "location": "Seoul, South Korea",
+    "logo": "assets/images/universities/snu.png"
+  }
+]

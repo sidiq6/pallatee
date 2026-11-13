@@ -1,0 +1,70 @@
+{
+  "project": "CLASSVERSE — PALLET XII-P4",
+  "source_archive": "memory.zip",
+  "assets": [
+    {
+      "path": "assets/images/brand/class-logo.webp",
+      "source": "memory/Logo/logo kelas/logo kelas.jpg",
+      "role": "class logo"
+    },
+    {
+      "path": "assets/images/brand/school-logo.webp",
+      "source": "memory/Logo/logo sekolah/logo sekolahan.jpg",
+      "role": "school logo"
+    },
+    {
+      "path": "assets/images/hero-class.webp",
+      "source": "memory/Foto/foto bersama/motion_photo_8395641717964216356.jpg",
+      "role": "hero image"
+    },
+    {
+      "path": "assets/images/albums/class-portrait-poster.webp",
+      "source": "memory/Foto/fotoijazah.jpg",
+      "role": "class portrait poster"
+    },
+    {
+      "path": "assets/images/universities/harvard.png",
+      "source": "memory/Logo/university/IMG_89679ea3-24e0-4bee-925c-dfbd18d494fe.png",
+      "role": "Harvard logo"
+    },
+    {
+      "path": "assets/images/universities/oxford.png",
+      "source": "memory/Logo/university/IMG_46fea2bb-9af1-46d7-8189-e931e7669358.png",
+      "role": "Oxford logo"
+    },
+    {
+      "path": "assets/images/universities/ugm.png",
+      "source": "memory/Logo/university/IMG_03de3b03-ef1a-41ec-999b-00312796123c.png",
+      "role": "UGM logo"
+    },
+    {
+      "path": "assets/images/universities/ui.jpg",
+      "source": "memory/Logo/university/IMG_d8552cd4-9c9d-4c3c-b00f-c225aac12ad2.jpg",
+      "role": "UI logo"
+    },
+    {
+      "path": "assets/images/universities/snu.png",
+      "source": "memory/Logo/university/IMG_d9e6c9a2-4136-4184-809b-ebe331dd37eb.png",
+      "role": "SNU logo"
+    },
+    {
+      "path": "assets/images/universities/itb.png",
+      "source": "memory/Logo/university/IMG_15cd183c-cc4a-4c1b-a4d2-b3f96b209b90.png",
+      "role": "ITB logo"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "memory/Logo/university/IMG_39c23fac-5cea-4779-8823-8a4c937bb5ed.png",
+      "reason": "Stanford is not in the six requested university targets."
+    },
+    {
+      "source": "memory/asset/karakter/",
+      "reason": "Seven game-like/third-party character artworks; rights not verified."
+    },
+    {
+      "source": "memory/asset/lagu/ssstik.io_1794484202250.mp3",
+      "reason": "Track identity and usage permission not confirmed; playback inactive."
+    }
+  ]
+}
