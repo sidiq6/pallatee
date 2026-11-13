@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a2d">
+  <meta name="description" content="CLASSVERSE — PALLETE XII-P4, SMA PGRI 1 Taman Pemalang. A class, a universe, a thousand memories.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CLASSVERSE — PALLETE XII-P4">
+  <meta property="og:description" content="A Class. A Universe. A Thousand Memories.">
+  <meta property="og:image" content="assets/images/hero-class.webp">
+  <title>CLASSVERSE — PALLETE XII-P4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/brand/class-logo.webp" type="image/webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/loading-screen.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/loading-screen.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/gallery.js" defer></script>
+  <script src="js/games/tetris.js" defer></script>
+  <script src="js/music-player.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <!-- CINEMATIC PRELOADER -->
+  <div class="preloader" id="preloader" role="dialog" aria-modal="true" aria-label="CLASSVERSE sedang disiapkan">
+    <div class="preloader-grid" aria-hidden="true"></div>
+    <div class="preloader-orb orb-one" aria-hidden="true"></div>
+    <div class="preloader-orb orb-two" aria-hidden="true"></div>
+    <div class="preloader-inner">
+      <div class="preloader-topline">
+        <span class="eyebrow">PALLETE XII-P4</span>
+        <span class="preloader-school">SMA PGRI 1 TAMAN PEMALANG</span>
+      </div>
+      <div class="preloader-center">
+        <div class="preloader-logo-wrap">
+          <img class="preloader-logo" src="assets/images/brand/class-logo.webp" alt="Logo Four's Palette 2025" width="180" height="180">
+        </div>
+        <p class="preloader-kicker">WELCOME TO OUR UNIVERSE</p>
+        <h1 class="preloader-title">CLASS<span>VERSE</span></h1>
+        <p class="preloader-tagline">A Class. A Universe. A Thousand Memories.</p>
+        <div class="loading-block" aria-live="polite">
+          <div class="loading-meta"><span id="loading-status">Preparing your universe...</span><span id="loading-percent">0%</span></div>
+          <div class="loading-track"><span class="loading-fill" id="loading-fill"></span></div>
+        </div>
+        <button class="enter-button" id="enter-button" type="button" disabled>Enter Classverse <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="preloader-social">
+        <span class="social-caption">FOLLOW OUR JOURNEY</span>
+        <div class="preloader-social-links">
+          <a class="preloader-social-link" href="https://www.instagram.com/pallete.of4?cplk=MWtsMjM1bmtiemZnbQ==" target="_blank" rel="noopener noreferrer" aria-label="Buka Instagram Pallete of 4">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.7" r="1.1" fill="currentColor"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a class="preloader-social-link" href="https://www.tiktok.com/@pallete.of4?_r=1&_t=ZS-9BLNrU4cZYf" target="_blank" rel="noopener noreferrer" aria-label="Buka TikTok Pallete of 4">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6.05.9.14V9.37a6.33 6.33 0 0 0-.9-.07 6.34 6.34 0 1 0 6.34 6.34V9.26a8.2 8.2 0 0 0 4.78 1.53V7.34a4.85 4.85 0 0 1-1-.65" fill="currentColor"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+        <span class="social-handle">@pallete.of4</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <a class="brand-lockup" href="#home" aria-label="CLASSVERSE, kembali ke beranda">
+      <img src="assets/images/brand/class-logo.webp" alt="" width="46" height="46">
+      <span><strong>CLASSVERSE</strong><small>PALLETE XII-P4</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#identity" class="nav-link">Our Class</a>
+      <a href="#memories" class="nav-link">Memories</a>
+      <a href="#universities" class="nav-link">Dreams</a>
+      <a href="#arcade" class="nav-link">Arcade</a>
+      <a href="#contact" class="nav-link nav-contact">Connect <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero-section" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Foto kebersamaan PALLETE XII-P4 di sekolah"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content page-container">
+        <p class="hero-overline reveal"><span class="status-dot"></span> SMA PGRI 1 TAMAN PEMALANG</p>
+        <h1 class="hero-title reveal" id="hero-title">A CLASS.<br><span>A UNIVERSE.</span></h1>
+        <p class="hero-description reveal">A thousand memories, one place to keep them.</p>
+        <div class="hero-identity reveal">
+          <img src="assets/images/brand/class-logo.webp" alt="Logo Four's Palette 2025" width="64" height="64">
+          <div><strong>PALLETE XII-P4</strong><small>Four's Palette · 2025</small></div>
+        </div>
+        <div class="hero-actions reveal">
+          <a class="button button-light" href="#memories">Explore Our Memories <span aria-hidden="true">↓</span></a>
+          <a class="button button-outline" href="#arcade">Enter Arcade <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom page-container"><span>SCROLL TO EXPLORE</span><span class="hero-line"></span><span>01 / 08</span></div>
+      <div class="hero-stamp" aria-hidden="true">P<br>4</div>
+    </section>
+
+    <section class="identity-section section-pad" id="identity">
+      <div class="page-container identity-layout">
+        <div class="section-intro reveal">
+          <p class="section-label">01 — THE IDENTITY</p>
+          <h2 class="section-title">More than a class.<br><em>A little universe.</em></h2>
+          <p class="section-copy">Welcome to the digital home of PALLETE XII-P4. A place to revisit the moments, faces, and little stories that make our class feel like ours.</p>
+          <div class="school-signature"><img src="assets/images/brand/school-logo.webp" alt="Logo SMA PGRI 1 Taman Pemalang" width="58" height="58"><span><strong>SMA PGRI 1 TAMAN PEMALANG</strong><small>Pemalang, Central Java, Indonesia</small></span></div>
+        </div>
+        <div class="identity-art reveal">
+          <div class="identity-orbit orbit-a"></div><div class="identity-orbit orbit-b"></div>
+          <div class="identity-logo-card"><img src="assets/images/brand/class-logo.webp" alt="Logo Four's Palette 2025" width="330" height="330"></div>
+          <span class="floating-note note-top">FOUR'S PALETTE</span><span class="floating-note note-bottom">EST. 2025</span>
+          <span class="identity-spark spark-a">✳</span><span class="identity-spark spark-b">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories-section section-pad" id="memories">
+      <div class="page-container">
+        <div class="section-heading-row reveal"><div><p class="section-label">02 — THE ARCHIVE</p><h2 class="section-title">Little moments.<br><em>Forever kept.</em></h2></div><p class="section-aside">A collection of the moments we captured along the way. Take a look around.</p></div>
+        <div class="gallery-toolbar reveal"><div class="filter-list" role="group" aria-label="Filter album foto"><button class="filter-button is-selected" data-filter="all" type="button">All memories <span>36</span></button><button class="filter-button" data-filter="together" type="button">Together <span>14</span></button><button class="filter-button" data-filter="core" type="button">Core moments <span>17</span></button><button class="filter-button" data-filter="bali" type="button">Bali trip <span>4</span></button><button class="filter-button" data-filter="portrait" type="button">Class portrait <span>1</span></button></div><span class="gallery-count" id="gallery-count">36 PHOTOS</span></div>
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite">
+          <div class="gallery-loading">Loading our memories...</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="universities-section section-pad" id="universities">
+      <div class="page-container">
+        <div class="section-heading-row reveal"><div><p class="section-label">03 — THE NEXT CHAPTER</p><h2 class="section-title">Dream big.<br><em>Go anywhere.</em></h2></div><p class="section-aside">A little wall of inspiration. Six universities, countless possibilities.</p></div>
+        <div class="university-grid" id="university-grid">
+          <article class="university-card reveal"><img src="assets/images/universities/harvard.png" alt="Harvard University logo"><h3>Harvard University</h3><p>Cambridge, Massachusetts, USA</p></article>
+          <article class="university-card reveal"><img src="assets/images/universities/oxford.png" alt="University of Oxford logo"><h3>University of Oxford</h3><p>Oxford, United Kingdom</p></article>
+          <article class="university-card reveal"><img src="assets/images/universities/ugm.png" alt="Universitas Gadjah Mada logo"><h3>Universitas Gadjah Mada</h3><p>Yogyakarta, Indonesia</p></article>
+          <article class="university-card reveal"><img src="assets/images/universities/ui.jpg" alt="Universitas Indonesia logo"><h3>Universitas Indonesia</h3><p>Depok, Indonesia</p></article>
+          <article class="university-card reveal"><img src="assets/images/universities/snu.png" alt="Seoul National University logo"><h3>Seoul National University</h3><p>Seoul, South Korea</p></article>
+          <article class="university-card reveal"><img src="assets/images/universities/itb.png" alt="Institut Teknologi Bandung logo"><h3>Institut Teknologi Bandung</h3><p>Bandung, Indonesia</p></article>
+        </div>
+        <p class="university-note">Dreams and aspirations of our class community. This showcase does not imply an official affiliation with these universities.</p>
+      </div>
+    </section>
+
+    <section class="arcade-section section-pad" id="arcade">
+      <div class="page-container">
+        <div class="section-heading-row arcade-heading reveal"><div><p class="section-label">04 — TAKE A BREAK</p><h2 class="section-title">Ready to <em>play?</em></h2></div><p class="section-aside">A little throwback to the games we love. Clear the lines, beat your best score, and have fun.</p></div>
+        <div class="arcade-shell reveal">
+          <div class="arcade-copy"><span class="arcade-tag"><span class="status-dot"></span> CLASSVERSE ARCADE</span><h3>THE<br><span>BLOCK</span><br>ROOM.</h3><p>Stack the falling blocks, complete a line, and keep the board clear. How long can you last?</p><div class="game-instructions"><span><kbd>←</kbd><kbd>→</kbd> Move</span><span><kbd>↑</kbd> Rotate</span><span><kbd>↓</kbd> Soft drop</span><span><kbd>SPACE</kbd> Hard drop</span><span><kbd>P</kbd> Pause</span></div></div>
+          <div class="game-panel">
+            <div class="game-topline"><span>PALLETE ARCADE / 001</span><span id="game-state">READY TO PLAY</span></div>
+            <div class="game-layout">
+              <div class="board-wrap"><canvas id="tetris-board" width="300" height="600" aria-label="Tetris game board"></canvas><div class="game-overlay" id="game-overlay"><strong id="overlay-title">READY?</strong><span id="overlay-copy">Press start when you're ready.</span></div></div>
+              <div class="game-sidebar"><div class="score-card"><small>SCORE</small><strong id="score-value">000000</strong></div><div class="score-card"><small>BEST</small><strong id="best-value">000000</strong></div><div class="score-card"><small>LEVEL</small><strong id="level-value">01</strong></div><div class="next-piece"><small>NEXT PIECE</small><canvas id="next-board" width="120" height="100" aria-label="Next Tetris piece"></canvas></div><button class="button button-accent game-start" id="game-start" type="button">Start game <span>↗</span></button><button class="button button-quiet" id="game-pause" type="button" disabled>Pause</button><button class="button button-quiet" id="game-restart" type="button">Restart</button></div>
+            </div>
+            <div class="touch-controls" aria-label="Kontrol Tetris untuk layar sentuh"><button type="button" data-control="left" aria-label="Geser kiri">←</button><button type="button" data-control="rotate" aria-label="Putar blok">↻</button><button type="button" data-control="right" aria-label="Geser kanan">→</button><button type="button" data-control="down" aria-label="Turunkan blok">↓</button><button type="button" data-control="drop" aria-label="Jatuhkan blok">⇊</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="page-container contact-layout">
+        <div class="contact-copy reveal"><p class="section-label">05 — STAY CONNECTED</p><h2 class="section-title">Find us<br><em>out there.</em></h2><p class="section-copy">Follow the class account and keep up with the little moments beyond this page.</p><div class="contact-socials"><a href="https://www.instagram.com/pallete.of4?cplk=MWtsMjM1bmtiemZnbQ==" target="_blank" rel="noopener noreferrer" class="social-card"><span class="social-icon instagram-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.7" r="1.1" fill="currentColor"/></svg></span><span><small>FOLLOW ON</small><strong>Instagram</strong><em>@pallete.of4</em></span><b>↗</b></a><a href="https://www.tiktok.com/@pallete.of4?_r=1&_t=ZS-9BLNrU4cZYf" target="_blank" rel="noopener noreferrer" class="social-card"><span class="social-icon tiktok-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6.05.9.14V9.37a6.33 6.33 0 0 0-.9-.07 6.34 6.34 0 1 0 6.34 6.34V9.26a8.2 8.2 0 0 0 4.78 1.53V7.34a4.85 4.85 0 0 1-1-.65" fill="currentColor"/></svg></span><span><small>FOLLOW ON</small><strong>TikTok</strong><em>@pallete.of4</em></span><b>↗</b></a></div></div>
+        <div class="location-card reveal"><div class="location-top"><span class="location-pin">✳</span><span>OUR SCHOOL</span></div><h3>SMA PGRI 1<br>TAMAN PEMALANG</h3><p>Pemalang, Jawa Tengah, Indonesia</p><a href="https://www.google.com/maps/search/?api=1&query=SMA+PGRI+1+Taman+Pemalang" target="_blank" rel="noopener noreferrer" class="map-link">Find on Google Maps <span>↗</span></a><div class="location-decoration" aria-hidden="true">P4</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="page-container footer-main"><a class="footer-brand" href="#home"><img src="assets/images/brand/class-logo.webp" alt="Logo Four's Palette 2025" width="66" height="66"><span><strong>CLASSVERSE</strong><small>PALLETE XII-P4</small></span></a><p>One Class. Endless Stories.<br>Forever in Our Memories.</p><a class="back-top" href="#home">BACK TO TOP ↑</a></div><div class="page-container footer-bottom"><span>© <span id="copyright-year">2026</span> PALLETE XII-P4</span><span>MADE WITH MEMORIES IN PEMALANG</span></div></footer>
+
+  <!-- Local audio from the user's ZIP. Playback starts only after an explicit click. -->
+  <aside class="music-widget" id="music-widget" aria-label="Music player">
+    <button class="music-toggle" id="music-toggle" type="button" aria-expanded="false" aria-controls="music-panel">
+      <span class="music-equalizer" aria-hidden="true"><i></i><i></i><i></i></span><span>MUSIC</span><span class="music-plus" aria-hidden="true">+</span>
+    </button>
+    <section class="music-panel" id="music-panel" aria-label="Pemutar musik" hidden>
+      <div class="music-panel-top"><span>CLASSVERSE SOUNDTRACK</span><button id="music-close" type="button" aria-label="Tutup music player">×</button></div>
+      <div class="music-track">
+        <div class="music-art" aria-hidden="true">♪</div>
+        <div class="music-track-meta"><strong>PALLETE — CLASS MEMORIES</strong><small>Audio dari arsip kelas · MP3</small></div>
+      </div>
+      <audio id="class-audio" preload="metadata" playsinline>
+        <source src="assets/audio/class-track.mp3" type="audio/mpeg">
+        Browser ini tidak mendukung pemutar audio HTML5.
+      </audio>
+      <div class="music-controls">
+        <button class="music-play" id="music-play" type="button" aria-label="Putar audio">▶</button>
+        <div class="music-timeline">
+          <div class="music-time"><span id="music-current">0:00</span><span id="music-duration">--:--</span></div>
+          <input id="music-progress" class="music-range" type="range" min="0" max="100" value="0" step="0.1" aria-label="Posisi audio">
+        </div>
+      </div>
+      <div class="music-volume-row">
+        <button id="music-mute" class="music-mute" type="button" aria-label="Matikan suara">VOL</button>
+        <input id="music-volume" class="music-range music-volume" type="range" min="0" max="1" value="0.8" step="0.01" aria-label="Volume audio">
+        <span id="music-volume-value">80%</span>
+      </div>
+      <p class="music-status" id="music-status" role="status" aria-live="polite">Tekan tombol play untuk memutar musik.</p>
+    </section>
+  </aside>
+
+  <!-- Accessible photo lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Tutup foto">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Foto sebelumnya">‹</button>
+    <figure><img id="lightbox-image" src="" alt=""><figcaption><span id="lightbox-caption"></span><span id="lightbox-counter"></span></figcaption></figure>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Foto berikutnya">›</button>
+  </div>
+</body>
+</html>
